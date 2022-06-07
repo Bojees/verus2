@@ -1,17 +1,22 @@
 {
-    "family": "task-2", 
-    "networkMode": "awsvpc", 
+    "family": "task-2",
+    "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "fargate-app", 
-            "image": "295032956209.dkr.ecr.ap-southeast-1.amazonaws.com/vester", 
-            "command": [
-            ]
+            "name": "fargate-app",
+            "image": "295032956209.dkr.ecr.ap-southeast-1.amazonaws.com/vester",
+            "command": []
         }
-    ], 
+    ],
     "requiresCompatibilities": [
         "FARGATE"
-    ], 
-    "cpu": "4096", 
-    "memory": "8192"
+    ],
+    "cpu": "4096",
+    "memory": "8192",
+    "volumes": [],
+    "placementConstraints": [],
+    "inferenceAccelerators": [],
+    "executionRoleArn": "arn:aws:iam::295032956209:role/ecsTaskExecutionRole",
+    "taskRoleArn": "",
+    "tags": []
 }
