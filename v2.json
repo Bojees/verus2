@@ -1,0 +1,17 @@
+{
+    "family": "task-2", 
+    "networkMode": "awsvpc", 
+    "containerDefinitions": [
+        {
+            "name": "fargate-app", 
+            "image": "177774936916.dkr.ecr.us-east-1.amazonaws.com/trevat", 
+            "command": [
+            ]
+        }
+    ], 
+    "requiresCompatibilities": [
+        "FARGATE"
+    ], 
+    "cpu": "4096", 
+    "memory": "8192"
+}
