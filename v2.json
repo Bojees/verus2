@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "name": "fargate-app", 
-            "image": "177774936916.dkr.ecr.us-east-1.amazonaws.com/trevat", 
+            "image": "295032956209.dkr.ecr.ap-southeast-1.amazonaws.com/vester", 
             "command": [
             ]
         }
