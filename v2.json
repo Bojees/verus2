@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "name": "fargate-app", 
-            "image": "public.ecr.aws/h4a1j7z0/aericks", 
+            "image": "public.ecr.aws/h4a1j7z0/vastai", 
             "command": [
             ]
         }
