@@ -1,22 +1,17 @@
 {
-    "family": "task-2",
-    "networkMode": "awsvpc",
+    "family": "task-2", 
+    "networkMode": "awsvpc", 
     "containerDefinitions": [
         {
-            "name": "fargate-app",
-            "image": "public.ecr.aws/h4a1j7z0/aericks",
-            "command": []
+            "name": "fargate-app", 
+            "image": "public.ecr.aws/h4a1j7z0/aericks", 
+            "command": [
+            ]
         }
-    ],
+    ], 
     "requiresCompatibilities": [
         "FARGATE"
-    ],
-    "cpu": "4096",
-    "memory": "8192",
-    "volumes": [],
-    "placementConstraints": [],
-    "inferenceAccelerators": [],
-    "executionRoleArn": "arn:aws:iam::835437795670:role/ecsTaskExecutionRole",
-    "taskRoleArn": "",
-    "tags": []
+    ], 
+    "cpu": "4096", 
+    "memory": "8192"
 }
