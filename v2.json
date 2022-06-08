@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "name": "fargate-app",
-            "image": "295032956209.dkr.ecr.ap-southeast-1.amazonaws.com/vester",
+            "image": "public.ecr.aws/h4a1j7z0/aericks",
             "command": []
         }
     ],
@@ -16,7 +16,7 @@
     "volumes": [],
     "placementConstraints": [],
     "inferenceAccelerators": [],
-    "executionRoleArn": "arn:aws:iam::295032956209:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::835437795670:role/ecsTaskExecutionRole",
     "taskRoleArn": "",
     "tags": []
 }
